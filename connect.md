@@ -12,6 +12,5 @@ git push origin
 
 **Creating new branch**
 git checkout -b branch_name
-
 git push -u origin branch_name
 
