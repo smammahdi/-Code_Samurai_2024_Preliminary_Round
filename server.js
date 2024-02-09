@@ -7,10 +7,20 @@ const PORT = 8000;
 app.use(express.json());
 
 app.get('/', async (req, res) => {
-    res.status(200).send('Hello World');
+    res.status(200).send('Hello Wld');
 })
 
+app.get('/users', async (req, res) => {
+    try{
+
+    }catch(err){
+        console.error(err.message);
+    }
+})
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+
+
